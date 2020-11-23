@@ -41,10 +41,9 @@ namespace Passapi.api.Controllers
 
             var user = new User
             {
+                Email = model.Email,
 
             };
-
-            IdentityUser
         }
 
         // PUT api/<RegisterController>/5
